@@ -1,0 +1,19 @@
+{
+"project_name": "WaveFunctionCollaps",
+"description": "Implementation of a wave function collapse algorithm.",
+"python_version": "3.8.12",
+"author": "Sebastian Meisel <sebastian.meisel+wfc@gmail.com>",
+"directories": [
+"src/wfc",
+	"tests"
+    ],
+    "files": {
+	"src/{project_name}/__init__.py": "",
+	"tests/test_sample.py": "import pytest\n\ndef test_example():\n    assert 1 + 1 == 2\n",
+	".gitignore": "# Virtual environment\n.venv/\n__pycache__/\n*.pyc\n*.pyo\n",
+	"requirements.txt": "pytest\n",
+	"pyproject.toml": "[tool.poetry]\nname = \"{project_name}\"\nversion = \"0.1.0\"\ndescription = \"{description}\"\nauthors = [\"{author}\"]\n\n[tool.poetry.dependencies]\npython = \"^{python_version}\"\n\n[tool.poetry.dev-dependencies]\npytest = \"^7.0.0\"\n\n[build-system]\nrequires = [\"setuptools\", \"wheel\"]\nbuild-backend = \"setuptools.build_meta\"",
+	"README.md": "# {project_name}\n\nA Python module template with pytest and pyenv support."
+    }
+}
+

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/WaveFunctionCollaps/__init__.py
+src/WaveFunctionCollaps/main.py
+src/WaveFunctionCollaps.egg-info/PKG-INFO
+src/WaveFunctionCollaps.egg-info/SOURCES.txt
+src/WaveFunctionCollaps.egg-info/dependency_links.txt
+src/WaveFunctionCollaps.egg-info/top_level.txt
+tests/test_sample.py

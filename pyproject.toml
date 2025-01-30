@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "WaveFunctionCollaps"
+version = "0.1.0"
+description = "Implementation of a wave function collapse algorithm."
+authors = ["Sebastian Meisel <sebastian.meisel+wfc@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

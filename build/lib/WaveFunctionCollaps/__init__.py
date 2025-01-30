@@ -1,0 +1,1 @@
+from WaveFunctionCollaps import *

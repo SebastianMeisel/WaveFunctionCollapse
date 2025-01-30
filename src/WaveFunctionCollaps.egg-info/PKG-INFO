@@ -1,0 +1,9 @@
+Metadata-Version: 2.2
+Name: WaveFunctionCollaps
+Version: 0.1.0
+Summary: Implement wave function collapse algorithm.
+Author: sebastian.meisel+wfc@gmail.com
+Requires-Python: >=3.11
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary
