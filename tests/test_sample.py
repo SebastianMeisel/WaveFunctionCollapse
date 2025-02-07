@@ -1,10 +1,14 @@
-import unittest
-from WaveFunctionCollaps.main import main 
+from test_canvas import *
+from test_grid import *
+from test_tile import *
+from test_image import *
+from test_tileset import *
 
-class TestMain(unittest.TestCase):
+AllTests=unittest.TestSuite([GridTest,TileTest, CanvasTest, ImageTest, TileSetTest])
+#unittest.TextTestRunner(verbosity=2).run(AllTests)
 
-    def test_main_exist(self):
-        self.assertIsInstance(main, Class)
+unittest.main(verbosity=2)
 
-
-unittest.main()
+# Local Variables:
+# jinx-languages: "en_US"
+# End:
